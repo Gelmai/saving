@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: new ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: new HomePage(title: 'Flutter Demo Home Page'),
+      home: new HomePage(title: 'Saving'),
       routes: <String, WidgetBuilder>{
         '/HomePage': (BuildContext context) => HomePage(),
         '/AddPersonPage': (BuildContext context) => AddPersonPage(),

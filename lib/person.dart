@@ -1,11 +1,9 @@
-
-
 class Person {
   String firstName;
   String lastName;
-  String personDetails;
+  String personDetail;
   int personId;
 
-  this.Person(this.firstName, this.lastName);
+  Person(this.firstName, this.lastName);
   
 }
